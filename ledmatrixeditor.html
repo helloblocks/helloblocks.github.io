@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link href="/web/assets/cda3038f/css/bootstrap.css" rel="stylesheet">
+    <link href="/web/css/site.css" rel="stylesheet">
+    <script src="/web/assets/22a8963f/jquery.js"></script>
+</head>
+
+<body>
+    <!-- main content fill full screen and padding para navbar-->
+    <div class="container-fluid ablocks-fill-and-pad">
+
+        <div class="ablocks-fill-and-pad">
+            <center>
+
+                <h1>LedMatrix - Bitmap Data</h1>
+                <br>
+                <!-- //start editor -->
+
+                <script>
+                    var pixels = new Array(64); //max 8x8
+                    var colorsel = 'FF0000';
+                    var coloroff = '000000';
+                    var rows = 8;
+                    var cols = 8;
+
+                    $(document).ready(function() {
+                        init();
+                    });
+
+                    function init() {
+                        document.addEventListener('contextmenu', event => event.preventDefault());
+
+                        var canvas = document.getElementById('canvas');
+                        canvas.addEventListener('mousedown', clickMatrix, false);
+
+                        for (i = 0; i < (rows * cols); i++) pixels[i] = '000000';
+                        drawMatrix();
+                    }
+
+                    function updateColor(jscolor) {
+                        colorsel = jscolor;
+                    }
+
+                    function clickMatrix(event) {
+                        var canvas = document.getElementById('canvas');
+                        var x = event.pageX - canvas.offsetLeft;
+                        var y = event.pageY - canvas.offsetTop;
+
+                        var cellw = 320 / cols;
+                        var cellh = 320 / rows;
+
+                        var fila = Math.floor(y / cellh);
+                        var col = Math.floor(x / cellw);
+
+                        if (event.button === 0) {
+                            if (pixels[(fila * cols) + col] == colorsel) {
+                                pixels[(fila * cols) + col] = new String(coloroff);
+                            } else {
+                                pixels[(fila * cols) + col] = new String(colorsel);
+                            }
+                        }
+                        drawMatrix();
+                    }
+
+                    function drawMatrix() {
+
+                        var code = '';
+
+                        var canvas = document.getElementById('canvas');
+                        var ta = document.getElementById('tacode');
+
+                        if (canvas.getContext) {
+                            var ctx = canvas.getContext('2d');
+                            ctx.clearRect(0, 0, 320, 320);
+
+                            var cellw = 320 / cols;
+                            var cellh = 320 / rows;
+
+                            for (i = 0; i < rows; i++) {
+                                code += 'B';
+                                for (j = 0; j < cols; j++) {
+                                    ctx.fillStyle = '#' + pixels[(i * cols) + j];
+                                    ctx.fillRect(j * cellw, i * cellh, cellw - 2, cellh - 2);
+
+                                    if (pixels[(i * cols) + j] != 0x000000) {
+                                        code += '1';
+                                    } else {
+                                        code += '0';
+                                    }
+                                }
+                                if (i != (rows - 1)) code = code + ',';
+                            }
+                        }
+                        tacode.value = code;
+                    }
+
+                    function clearMatrix() {
+                        for (i = 0; i < (rows * cols); i++) {
+                            pixels[i] = new String(coloroff);
+                        }
+                        drawMatrix();
+                    }
+
+                    function fillMatrix() {
+                        for (i = 0; i < (rows * cols); i++) {
+                            pixels[i] = new String(colorsel);
+                        }
+                        drawMatrix();
+                    }
+
+                    function copyCode() {
+                        var ta = document.getElementById('tacode');
+                        ta.select();
+                        document.execCommand("Copy");
+                        alert("Copied to clipboard!");
+                    }
+                </script>
+
+                <script type="text/javascript" src="/web/js/jscolor.js"></script>
+
+                <canvas id="canvas" width="320" height="320"></canvas>
+                <br>
+                <button onclick="clearMatrix()">Clear</button>
+                <button onclick="fillMatrix()">Fill</button>
+                <button onclick="copyCode()">Copy data: </button>
+                <br><br>
+                <textarea id="tacode" rows="2" cols="80" readonly="true"></textarea>
+                <br><br><br><br>
+
+                <!-- //container -->
+            </center>
+        </div>
+        <br><br>
+    </div>
+
+    <!-- navbar inferior -->
+
+    <!-- status info -->
+    <script type="text/javascript">
+        function setStatus(_s) {
+            $('#estado').html(_s);
+            $('#estado').fadeIn();
+            setTimeout(function() {
+                $('#estado').fadeOut();
+            }, 5000);
+        }
+    </script>
+
+    <!--end-->
+    <script src="/web/assets/cda3038f/js/bootstrap.js"></script>
+</body>
+
+</html>
