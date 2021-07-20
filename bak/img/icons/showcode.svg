@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.56 37.57">
+    <defs>
+        <style type="text/css">
+            @font-face {
+                font-family: Lemur-Medium;
+                src: url('/fonts/Lemur-Medium.woff');
+            }
+            
+        .cls-1{
+            fill:#fec542;
+        }
+        .cls-2 {
+            font-size:18.89px;
+            fill:#fff;
+            font-family:Lemur-Medium, 
+            Lemur;
+        }
+
+        .cls-3{letter-spacing:0em;}.cls-4{letter-spacing:-0.01em;}.cls-5{letter-spacing:-0.01em;}.cls-6{letter-spacing:-0.01em;}.cls-7{letter-spacing:-0.03em;}.cls-8{letter-spacing:-0.01em;}.cls-9{letter-spacing:-0.01em;}</style>
+    </defs>
+    <title>showcode_v0</title>
+    <g id="Capa_2" data-name="Capa 2">
+        <g id="Capa_2-2" data-name="Capa 2">
+            <rect class="cls-1" x="36.5" y="-36.5" width="37.57" height="110.56" rx="8.36" ry="8.36" transform="translate(36.5 74.06) rotate(-90)" />
+            <text class="cls-2" transform="translate(9.97 24.65)">
+                <tspan class="cls-3">S</tspan>
+                <tspan class="cls-4" x="10.43" y="0">h</tspan>
+                <tspan class="cls-5" x="20.53" y="0">o</tspan>
+                <tspan class="cls-6" x="31.39" y="0">w</tspan>
+                <tspan x="44.43" y="0"></tspan>
+                <tspan class="cls-7" x="49.15" y="0">c</tspan>
+                <tspan class="cls-8" x="58.74" y="0">o</tspan>
+                <tspan class="cls-9" x="69.59" y="0">d</tspan>
+                <tspan x="80.28" y="0">e</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
