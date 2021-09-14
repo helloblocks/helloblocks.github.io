@@ -1,0 +1,8 @@
+<svg id="Componentes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>componentes_svg</title>
+  <path d="M30.27,50.28l7.8,14.56a1.87,1.87,0,0,0,3.14.25l28.57-37c.45-.7-.74-1.41-1.11-1.08L40.52,54.47a1.9,1.9,0,0,1-2.29.18l-6.25-6A1.24,1.24,0,0,0,30.27,50.28Z" fill="#fff"/>
+  <rect x="25.49" y="6" width="49.01" height="88" rx="3.33" ry="3.33" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+  <line x1="25.08" y1="17.7" x2="74.92" y2="17.7" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+  <line x1="25.59" y1="81.31" x2="74.41" y2="81.31" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+  <circle cx="50" cy="87.5" r="2.88" fill="#fff"/>
+</svg>

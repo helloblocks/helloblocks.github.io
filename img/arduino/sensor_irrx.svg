@@ -1,0 +1,30 @@
+<svg id="Componentes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100">
+  <title>componentes_svg</title>
+  <g>
+    <path d="M139.19,52.14V19.41A4.37,4.37,0,0,0,134.82,15H72.54a4.37,4.37,0,0,0-4.4,4.37V52.14a4.38,4.38,0,0,0,4.4,4.38h62.28A4.38,4.38,0,0,0,139.19,52.14Z" fill="#c6c6c6"/>
+    <path d="M139.19,52.14V19.41A4.37,4.37,0,0,0,134.82,15H78.51a4.37,4.37,0,0,0-4.38,4.37V52.14a4.38,4.38,0,0,0,4.38,4.38h56.31A4.38,4.38,0,0,0,139.19,52.14Z" fill="#3c3c3b"/>
+    <path d="M130.29,56.52H77.08a29.34,29.34,0,0,0,26.6,16.92q1,0,1.95-.09A29.41,29.41,0,0,0,130.29,56.52Z" fill="#b2b2b2"/>
+    <path d="M130.29,56.52H81a29.33,29.33,0,0,0,24.67,16.83A29.41,29.41,0,0,0,130.29,56.52Z" fill="#c6c6c6"/>
+    <rect x="102.75" y="55.26" width="2.55" height="20.74" rx="0.21" ry="0.21" fill="#3c3c3b"/>
+    <rect x="118.02" y="50.79" width="2.55" height="20.74" rx="0.21" ry="0.21" fill="#3c3c3b"/>
+    <rect x="86.48" y="50.79" width="2.55" height="20.74" rx="0.21" ry="0.21" fill="#3c3c3b"/>
+    <rect x="81.33" y="63.68" width="44.3" height="2.55" rx="0.21" ry="0.21" fill="#3c3c3b"/>
+  </g>
+  <g>
+    <rect x="46.74" y="18.16" width="1.24" height="10.59" rx="0.57" ry="0.57" fill="#c6c6c6"/>
+    <rect x="46.74" y="31.03" width="1.24" height="10.59" rx="0.57" ry="0.57" fill="#c6c6c6"/>
+    <rect x="12.9" y="1.63" width="34.2" height="95" rx="15.66" ry="15.66" fill="#f6f6f6"/>
+    <circle cx="30" cy="19.2" r="14.25" fill="#c6c6c6"/>
+    <circle cx="30" cy="19.2" r="5.7" fill="#ededed"/>
+    <g>
+      <circle cx="22.78" cy="43.11" r="4.75" fill="#dadada"/>
+      <circle cx="37.22" cy="43.11" r="4.75" fill="#dadada"/>
+      <circle cx="22.78" cy="57.11" r="4.75" fill="#dadada"/>
+      <circle cx="37.22" cy="57.11" r="4.75" fill="#dadada"/>
+    </g>
+    <rect x="18.48" y="68.57" width="23.56" height="9.5" rx="4.35" ry="4.35" fill="#dadada"/>
+    <circle cx="23.55" cy="73.29" r="3.8" fill="#f6f6f6"/>
+    <circle cx="37.1" cy="73.29" r="3.8" fill="#f6f6f6"/>
+    <circle cx="30" cy="87.22" r="1.33" fill="#706f6f"/>
+  </g>
+</svg>

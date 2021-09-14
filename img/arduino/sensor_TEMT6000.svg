@@ -1,0 +1,11 @@
+<svg id="Componentes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>componentes_svg</title>
+  <rect x="11.07" y="30.75" width="82.05" height="46.79" rx="0.91" ry="0.91" fill="#474b4b"/>
+  <path d="M33.82,37.72V70.57H70.37V37.72ZM52.09,64.17A10.85,10.85,0,1,1,62.94,53.32,10.88,10.88,0,0,1,52.09,64.17Z" fill="#ca9e67"/>
+  <rect x="82.55" y="37.72" width="13.08" height="13.08" rx="0.29" ry="0.29" fill="#ca9e67"/>
+  <rect x="8.91" y="47.61" width="13.08" height="13.08" rx="0.29" ry="0.29" fill="#ca9e67"/>
+  <rect x="82.55" y="57.63" width="13.08" height="13.08" rx="0.29" ry="0.29" fill="#ca9e67"/>
+  <line x1="39.56" y1="54.15" x2="15.44" y2="54.15" fill="none" stroke="#ca9e67" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="90.19" y1="44.26" x2="66.08" y2="44.26" fill="none" stroke="#ca9e67" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="90.19" y1="64.17" x2="66.08" y2="64.17" fill="none" stroke="#ca9e67" stroke-miterlimit="10" stroke-width="3"/>
+</svg>
