@@ -1,9 +1,0 @@
-<svg id="Componentes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <title>componentes_svg</title>
-  <rect x="25.49" y="6" width="49.01" height="88" rx="3.33" ry="3.33" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
-  <line x1="25.08" y1="17.7" x2="74.92" y2="17.7" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
-  <line x1="25.59" y1="81.31" x2="74.41" y2="81.31" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
-  <circle cx="50" cy="87.5" r="2.88" fill="#fff"/>
-  <rect x="29.48" y="41.71" width="40.88" height="7.75" rx="3.87" ry="3.87" transform="translate(46.85 -21.95) rotate(45)" fill="#fff"/>
-  <rect x="29.48" y="41.71" width="40.88" height="7.75" rx="3.87" ry="3.87" transform="translate(117.45 42.52) rotate(135)" fill="#fff"/>
-</svg>
