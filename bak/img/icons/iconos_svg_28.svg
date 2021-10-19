@@ -1,0 +1,19 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 50">
+  <title>iconos_svg</title>
+  <g>
+    <ellipse cx="18" cy="47.14" rx="9.78" ry="2.05" fill="#a7a9ab"/>
+    <g>
+      <path d="M9.2,34.3l.26.26.12.11L15.16,40a3.92,3.92,0,0,0,5.09,0l5.59-5.31.13-.11.25-.26Z" fill="#6e6f72"/>
+      <path d="M35.5,2.51V33.12a1.74,1.74,0,0,1-1.79,1.69H2.29A1.74,1.74,0,0,1,.5,33.12V2.51A1.75,1.75,0,0,1,2.29.81h9.39l3,2.67a4.84,4.84,0,0,0,6,0l3-2.67H33.71A1.75,1.75,0,0,1,35.5,2.51Z" fill="#6e6f72"/>
+      <path d="M10.21,23.89a7.5,7.5,0,0,0,15,0Z" fill="#fff"/>
+      <g>
+        <line x1="5.57" y1="16.17" x2="12.83" y2="18.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"/>
+        <line x1="5.57" y1="21.62" x2="12.83" y2="18.89" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"/>
+      </g>
+      <g>
+        <line x1="29.35" y1="16.17" x2="22.09" y2="18.9" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"/>
+        <line x1="29.35" y1="21.62" x2="22.09" y2="18.89" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"/>
+      </g>
+    </g>
+  </g>
+</svg>

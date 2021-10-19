@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 10">
+  <title>iconos_svg_v1</title>
+  <g id="Capa_3" data-name="Capa 3">
+    <g>
+      <rect x="0.63" y="0.74" width="21.75" height="8.53" rx="0.73" ry="0.73" fill="#343434"/>
+      <path d="M4.58,7.49H2.27A.45.45,0,0,1,1.83,7V2.8a.44.44,0,0,1,.44-.44H4.58a.44.44,0,0,0-.44.44V7A.45.45,0,0,0,4.58,7.49Z" fill="#1c609a"/>
+      <rect x="4.14" y="2.36" width="17.03" height="5.13" rx="0.44" ry="0.44" fill="#1f71ac"/>
+      <rect x="1.83" y="1.32" width="19.35" height="0.45" rx="0.14" ry="0.14" fill="#0f0f0f"/>
+      <rect x="1.83" y="8.08" width="19.35" height="0.45" rx="0.14" ry="0.14" fill="#0f0f0f"/>
+    </g>
+  </g>
+</svg>

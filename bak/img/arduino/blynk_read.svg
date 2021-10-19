@@ -1,0 +1,14 @@
+<svg id="Componentes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>componentes_svg</title>
+  <g>
+    <path d="M35.91,69V82.5a5,5,0,0,0,5,5h40a5,5,0,0,0,5-5V29.77L68.64,12.5H40.91a5,5,0,0,0-5,5V31" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <polygon points="85.92 29.77 85.92 29.83 68.58 29.83 68.58 12.5 68.64 12.5 85.92 29.77" fill="#fff"/>
+    <line x1="85.91" y1="29.77" x2="68.64" y2="12.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.25"/>
+    <g>
+      <line x1="54.58" y1="50.17" x2="14.08" y2="50.17" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+      <line x1="29.29" y1="64.95" x2="14.52" y2="50.18" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line x1="29.29" y1="35.05" x2="14.52" y2="49.82" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+    <path d="M79.29,62.57l-5.77,18.2H69.8L64,62.57h3.2L71.67,77.7l4.42-15.13Z" fill="#fff"/>
+  </g>
+</svg>

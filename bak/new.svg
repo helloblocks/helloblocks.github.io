@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 20">
+  <title>iconos_svg_v1</title>
+  <g id="Capa_3" data-name="Capa 3">
+    <g>
+      <path d="M13.53,5.87V17.41a1.14,1.14,0,0,1-1.14,1.14H2.61a1.14,1.14,0,0,1-1.14-1.14V2.59A1.14,1.14,0,0,1,2.61,1.45h6.5Z" fill="#008fc7"/>
+      <polygon points="13.53 5.87 9.11 5.87 9.11 1.45 13.53 5.87" fill="#7ecde8"/>
+      <rect x="6.66" y="8.82" width="1.25" height="5.7" rx="0.62" ry="0.62" fill="#384667"/>
+      <rect x="6.66" y="8.82" width="1.25" height="5.7" rx="0.62" ry="0.62" transform="translate(18.96 4.39) rotate(90)" fill="#384667"/>
+    </g>
+  </g>
+</svg>
