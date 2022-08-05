@@ -1,0 +1,14 @@
+{
+  "name": "helloblocks-mirror-client",
+  "version": "3.3.1",
+  "author": "Hello-Blocks",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir dist | cp -r -v * ./dist"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
